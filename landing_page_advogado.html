@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alan Leon Krefta | Advogado em Vilhena-RO</title>
+  <style>
+    :root{
+      --bg:#0f172a;          /* slate-900 */
+      --card:#0b1226;        /* deep navy */
+      --soft:#1e293b;        /* slate-800 */
+      --text:#e5e7eb;        /* zinc-200 */
+      --muted:#94a3b8;       /* slate-400 */
+      --brand:#3b82f6;       /* blue-500 */
+      --brand-2:#22c55e;     /* green-500 */
+      --shadow:0 10px 30px rgba(2,6,23,.35);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:linear-gradient(180deg,var(--bg),#020617);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+
+    /* HERO */
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center;padding:48px 24px}
+    .card{background:rgba(11,18,38,.7);backdrop-filter:blur(6px);border:1px solid rgba(148,163,184,.12);border-radius:var(--radius);box-shadow:var(--shadow);padding:32px}
+    .tag{display:inline-block;padding:6px 12px;border:1px solid rgba(148,163,184,.25);border-radius:999px;color:var(--muted);font-size:12px;letter-spacing:.4px;margin-bottom:10px}
+    h1{font-size:34px;line-height:1.15;margin:0 0 10px;font-weight:800}
+    .sub{color:var(--muted);margin:0 0 22px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:12px;font-weight:600;border:1px solid transparent}
+    .btn.whats{background:var(--brand-2)}
+    .btn.call{background:transparent;border-color:rgba(148,163,184,.35)}
+    .btn span{opacity:.9}
+    .hero-media{display:flex;justify-content:center}
+    .avatar{width:220px;height:220px;border-radius:24px;object-fit:cover;box-shadow:var(--shadow);border:2px solid rgba(148,163,184,.2)}
+
+    /* BENEFÍCIOS */
+    .beneficios{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:12px}
+    .beneficio{background:rgba(15,23,42,.7);border:1px solid rgba(148,163,184,.12);border-radius:14px;padding:16px}
+    .beneficio h3{margin:6px 0;font-size:16px}
+    .beneficio p{margin:0;color:var(--muted);font-size:14px}
+
+    /* SEÇÕES */
+    section{padding:12px 24px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .bloco{background:rgba(2,6,23,.45);border:1px solid rgba(148,163,184,.12);border-radius:var(--radius);padding:24px}
+    .bloco h2{margin:0 0 10px;font-size:22px}
+    ul.clean{margin:0;padding-left:18px}
+
+    /* MAPA / CONTATO */
+    .mapa{border-radius:16px;overflow:hidden;border:1px solid rgba(148,163,184,.12);box-shadow:var(--shadow)}
+    .mapa iframe{width:100%;height:320px;border:0}
+    .contato{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px}
+
+    /* RODAPÉ */
+    footer{padding:24px;color:var(--muted);text-align:center}
+
+    /* RESPONSIVO */
+    @media (max-width:980px){.hero{grid-template-columns:1fr}.beneficios{grid-template-columns:1fr 1fr}.grid,.contato{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="card">
+        <span class="tag">Advogado em Vilhena‑RO</span>
+        <h1>Consultoria jurídica clara e objetiva</h1>
+        <p class="sub">Atendimento online e presencial com foco em Direito Civil, Trabalhista e Previdenciário. Agilidade, ética e sigilo profissional.</p>
+        <div class="cta">
+          <a class="btn whats" href="https://wa.me/5569999999999?text=Olá,+gostaria+de+uma+consulta+jurídica" target="_blank">💬 <span>Falar no WhatsApp</span></a>
+          <a class="btn call" href="tel:+5569999999999">📞 <span>Ligar agora</span></a>
+        </div>
+        <div class="beneficios">
+          <div class="beneficio"><h3>⚡ Retorno rápido</h3><p>Agendamento e triagem no mesmo dia útil.</p></div>
+          <div class="beneficio"><h3>🛡️ Sigilo e ética</h3><p>Comunicação objetiva, sem jargões.</p></div>
+          <div class="beneficio"><h3>📍 Local e online</h3><p>Atendimento em Vilhena‑RO e por videochamada.</p></div>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img class="avatar" src="https://via.placeholder.com/500x500.png?text=Sua+Foto" alt="Foto profissional"/>
+      </div>
+    </section>
+
+    <!-- SEÇÕES PRINCIPAIS -->
+    <section class="grid">
+      <div class="bloco">
+        <h2>Áreas de atuação</h2>
+        <ul class="clean">
+          <li>Direito Civil (contratos, cobranças, danos)</li>
+          <li>Direito de Família (divórcio, pensão, guarda)</li>
+          <li>Direito Trabalhista (rescisões, verbas, ação)</li>
+          <li>Direito Previdenciário (INSS, aposentadoria)</li>
+          <li>Indenizações</li>
+        </ul>
+      </div>
+      <div class="bloco">
+        <h2>Como funciona o atendimento</h2>
+        <ul class="clean">
+          <li>Triagem inicial por WhatsApp ou ligação;</li>
+          <li>Agendamento de consulta presencial ou online;</li>
+          <li>Análise documental e proposta de honorários;</li>
+          <li>Acompanhamento e atualizações periódicas.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- MAPA E CONTATO -->
+    <section>
+      <div class="bloco">
+        <h2>Endereço e localização</h2>
+        <p>Vilhena‑RO • Consulte detalhes de endereço no Google Maps.</p>
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.2621!2d-60.1356!3d-12.7332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93b96b20b19f8ab5%3A0xba4a49f2cf537668!2sAlan%20Leon%20Krefta%20Advogado!5e0!3m2!1spt-BR!2sbr!4v1698685400000!5m2!1spt-BR!2sbr" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="cta" style="margin-top:14px">
+          <a class="btn call" href="https://maps.app.goo.gl/eW2vJ6yaeSKcGtDs6?g_st=ipc" target="_blank">📍 Ver no Google Maps</a>
+          <a class="btn whats" href="https://wa.me/5569999999999?text=Olá,+gostaria+de+uma+consulta+jurídica" target="_blank">💬 WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="contato">
+        <div class="bloco">
+          <h2>Contato</h2>
+          <p><strong>Telefone:</strong> (69) 99999‑9999</p>
+          <p><strong>E‑mail:</strong> contato@seuemail.com</p>
+          <p><strong>Horário:</strong> seg‑sex, 8h às 18h</p>
+        </div>
+        <div class="bloco">
+          <h2>Mensagem rápida</h2>
+          <p>Prefere escrever? Envie uma mensagem pelo WhatsApp e retornamos ainda hoje em horário comercial.</p>
+          <div class="cta"><a class="btn whats" href="https://wa.me/5569999999999?text=Olá,+preciso+de+orientação+jurídica" target="_blank">💬 Enviar no WhatsApp</a></div>
+        </div>
+      </div>
+    </section>
+    <footer>© 2025 Alan Leon Krefta • Conteúdo meramente informativo. Sem promessa de resultados.</footer>
+  </div>
+</body>
+</html>
